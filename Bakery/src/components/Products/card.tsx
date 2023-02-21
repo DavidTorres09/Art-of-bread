@@ -1,19 +1,29 @@
-import { useState, useRef, useEffect } from "react";
-import Bread from '../../images/Bread.jpg';
-import './card.css'
+import React from "react";
+import './card.css';
 
-const Card = () => {
-  return(
-  <div className="card">
-    <img src={Bread} alt="Photo of the product" className="experience-img" />
-      <div className="info">
-        <h2>Nombre del producto</h2>
-        <p>Descripción del producto.</p>
-        <p className="price">$99.99</p>
-        <button>Buy</button>
-      </div>
-  </div>
-  )
+type ProductCardProps = {
+  name: string;
+  imageSrc: string;
+  description: string;
+  price: number;
 };
 
-export default Card;
+const ProductCard: React.FC<ProductCardProps> = ({
+  name,
+  imageSrc,
+  description,
+  price,
+}) => {
+  return (
+    <div className="card">
+      <img src={imageSrc} alt={`Photo of ${name}`} className="product-img" />
+      <div className="info">
+        <h2>{name}</h2>
+        <p>{description}</p>
+        <p className="price">${price.toFixed(2)}</p>
+      </div>
+    </div>
+  );
+};
+
+export default ProductCard;

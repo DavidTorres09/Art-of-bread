@@ -1,40 +1,46 @@
 .card {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  width: 400px;
-  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
   margin: 20px;
 }
 
-.experience-img {
-  border-radius: 10px;
-  margin-bottom: 20px;
-  max-width: 400px;
-  max-height: 300px;
+.card .product-img {
+  object-fit: cover;
+  width: 100%;
+  height: 60%;
 }
 
-
-.info {
-  text-align: center;
+.card .info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40%;
+  background-color: #ffffff;
 }
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+.card .info h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
 }
 
-p {
-  font-size: 16px;
-  margin-bottom: 10px;
+.card .info p {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
 }
 
-.price {
-  font-size: 20px;
+.card .info .price {
+  font-size: 1.25rem;
   font-weight: bold;
-  color: #f00;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
+
