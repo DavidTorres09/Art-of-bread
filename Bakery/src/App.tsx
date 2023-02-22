@@ -9,12 +9,10 @@ function App() {
 
   return (
     <div className="App"> 
-    <BrowserRouter>
     <h2>Aqui va el navbar</h2>
-    </BrowserRouter>
       <Products/>
-      <Footer/>
     </div>
+    
   )
 }
 
