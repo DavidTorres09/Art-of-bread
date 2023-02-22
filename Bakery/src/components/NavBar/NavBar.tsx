@@ -34,19 +34,21 @@ function NavBar(props : any) {
                 About Us
               </NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href="#login">Contact</NavLink>
+            </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                What are you?
+                More...
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Client</DropdownItem>
-                <DropdownItem>Provider</DropdownItem>
+                <DropdownItem>Log In</DropdownItem>
+                <DropdownItem>More</DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Contact</NavbarText>
         </Collapse>
       </Navbar>
     </div>
