@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect } from "react";
 import ProductCard from "./card";
-import Bread from '../../images/Bread.jpg';
 
 
 const Products = () => {
