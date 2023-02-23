@@ -72,7 +72,7 @@
 }
 
 .card button {
-  background-color: #6ec6e9;
+  background-color: #f9c134;
   /* celeste pastel */
   color: #fff;
   border: none;
@@ -88,15 +88,15 @@
 }
 
 .card button:hover {
-  background-color: #00a4d6;
+  background-color: #d3a42e;
   /* celeste más oscuro */
-  transform: translateY(-3px);
+
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  transform: translateX(-50%);
+
 }
 
 .card button:active {
-  transform: rotate(45deg);
+  transform: scale(1.1);
   transition: all 0.3s ease-in-out;
 }
 
