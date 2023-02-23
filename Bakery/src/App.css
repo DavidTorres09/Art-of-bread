@@ -4,12 +4,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
  }
 
 body{
-  background-image: url();
+  background-image: linear-gradient(190deg, #fcd69d, #fadebe, #fae4dc, #e7d69c);
   background-repeat: no-repeat;
+  background-size:cover;
+  
+  box-sizing: border-box;
 }
 
 html {

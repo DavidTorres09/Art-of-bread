@@ -2,6 +2,7 @@
     margin: 60px auto;
     max-width: 1000px;
     position: relative;
+    box-shadow: 0 5px 70px rgba(255, 85, 7, 0.5);
   }
   
   .slick-dots {
@@ -24,5 +25,8 @@
   
   .slick-next {
     right: 30px;
+  }
+  .img{
+    border-radius: 50px;
   }
   

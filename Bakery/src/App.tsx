@@ -9,7 +9,7 @@ import AboutUs from './components/About us/AboutUs'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <div className="App">
