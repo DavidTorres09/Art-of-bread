@@ -37,7 +37,19 @@ function Carousel() {
     <div className="carrusel">
       <Slider {...settings}>
         <div>
-          <img src="https://m.media-amazon.com/images/I/51-UIB1dD9L._AC_UF350,350_QL50_.jpg" alt="slide1" />
+          <img src="https://pristinevodka.com/wp-content/uploads/2018/05/Magic-Bread-Pristine-Premium-Vodka-1-350x150.jpg" alt="slide1" />
+        </div>
+        <div>
+          <img src="https://sbcc.augusoft.net/customers/sbcc/images/classes/class_24686.jpg" alt="slide2" />
+        </div>
+        <div>
+          <img src="https://www.paliospizzacafe.com/wp-content/uploads/2017/05/app-cheese-bread61-350x150.jpg" alt="slide3" />
+        </div>
+        <div>
+          <img src="https://www.paliospizzacafe.com/wp-content/uploads/2017/06/Cheese-Bread-350x150.jpg" alt="slide4" />
+        </div>
+        <div>
+          <img src="https://pristinevodka.com/wp-content/uploads/2018/05/Magic-Bread-Pristine-Premium-Vodka-1-350x150.jpg" alt="slide1" />
         </div>
         <div>
           <img src="https://sbcc.augusoft.net/customers/sbcc/images/classes/class_24686.jpg" alt="slide2" />
