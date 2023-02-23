@@ -7,13 +7,15 @@
 .title {
   font-size: 28px;
   text-align: center;
-  color: #6ec6e9; /* celeste pastel */
+  color: #6ec6e9;
+  /* celeste pastel */
 }
 
 .description {
   font-size: 18px;
   text-align: center;
-  color: #f9a2b3; /* rosa pastel */
+  color: #f9a2b3;
+  /* rosa pastel */
 }
 
 .card {
@@ -49,25 +51,29 @@
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #6ec6e9; /* celeste pastel */
+  color: #6ec6e9;
+  /* celeste pastel */
 }
 
 .card p {
   font-size: 16px;
   margin-bottom: 10px;
   line-height: 1.5;
-  color: #f9a2b3; /* rosa pastel */
+  color: #f9a2b3;
+  /* rosa pastel */
 }
 
 .card .price {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #f5e3a4; /* amarillo pastel */
+  color: #f5e3a4;
+  /* amarillo pastel */
 }
 
 .card button {
-  background-color: #6ec6e9; /* celeste pastel */
+  background-color: #f9c134;
+  /* celeste pastel */
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -82,15 +88,16 @@
 }
 
 .card button:hover {
-  background-color: #00a4d6; /* celeste más oscuro */
-  transform: translateY(-3px);
+  background-color: #d3a42e;
+  /* celeste más oscuro */
+
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  transform: translateX(-50%);
+
 }
 
 .card button:active {
-  transform: translateY(1px);
-  box-shadow: none;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 
 
