@@ -1,6 +1,6 @@
 nav {
-  background-color: #f9c134;
-  color: #fff;
+  background-color: #8b3d0f;
+  color: #e6b3b3;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -24,11 +24,12 @@ li {
 }
 
 a {
-  color: #fff;
+  color: #f7eeee;
   text-decoration: none;
-  font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition: color 0.2s ease-in-out;
+  font-style: oblique;
 }
 
 a:hover {
