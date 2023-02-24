@@ -90,9 +90,7 @@
 .card button:hover {
   background-color: #d3a42e;
   /* celeste más oscuro */
-
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-
 }
 
 .card button:active {
